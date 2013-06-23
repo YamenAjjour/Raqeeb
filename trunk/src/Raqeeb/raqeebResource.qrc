@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>icons/addbonus.svg</file>
+        <file>icons/addemployee.svg</file>
+        <file>icons/addleave.svg</file>
+        <file>icons/addreduction.svg</file>
+        <file>icons/configuration.svg</file>
+        <file>icons/employeedata.svg</file>
+        <file>icons/employeereport.svg</file>
+        <file>icons/monthpayrollreport.svg</file>
+        <file>icons/newmonth.svg</file>
+        <file>icons/about.png</file>
+        <file>icons/login.png</file>
+        <file>icons/raqeeb.jpg</file>
+    </qresource>
+</RCC>

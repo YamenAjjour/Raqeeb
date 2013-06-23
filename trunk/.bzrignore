@@ -1,0 +1,7 @@
+build/*
+'build/moc'
+'build/ui'
+'build/obj'
+build/moc/*.*
+build/ui/*.*
+build/obj/*.*

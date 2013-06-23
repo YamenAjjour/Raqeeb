@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>597</width>
+    <height>498</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Raqeeb</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTableView" name="tvEmployees"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>597</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>HR</string>
+    </property>
+    <addaction name="AddEmployee"/>
+    <addaction name="actionAdd_Leave"/>
+    <addaction name="actionAdd_bounce"/>
+    <addaction name="actionAdd_deduction"/>
+   </widget>
+   <widget class="QMenu" name="menuReport">
+    <property name="title">
+     <string>Report</string>
+    </property>
+    <addaction name="actionMonth_Payroll"/>
+    <addaction name="actionEmployee_salary"/>
+   </widget>
+   <widget class="QMenu" name="menuNew_Month">
+    <property name="title">
+     <string>Payroll</string>
+    </property>
+    <addaction name="actionNew_Month"/>
+   </widget>
+   <widget class="QMenu" name="menuTools">
+    <property name="title">
+     <string>Configuration</string>
+    </property>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuReport"/>
+   <addaction name="menuNew_Month"/>
+   <addaction name="menuTools"/>
+  </widget>
+  <action name="actionOpen">
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </action>
+  <action name="actionExit_2">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionOppen">
+   <property name="text">
+    <string>open</string>
+   </property>
+  </action>
+  <action name="actionSaveReport">
+   <property name="text">
+    <string>Save Report</string>
+   </property>
+  </action>
+  <action name="actionClose">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionManage">
+   <property name="text">
+    <string>Manage</string>
+   </property>
+  </action>
+  <action name="actionAdd_User">
+   <property name="icon">
+    <iconset resource="../raqeebResource.qrc">
+     <normaloff>:/icons/icons/addemployee.svg</normaloff>:/icons/icons/addemployee.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Add User</string>
+   </property>
+  </action>
+  <action name="AddEmployee">
+   <property name="icon">
+    <iconset resource="../raqeebResource.qrc">
+     <normaloff>:/icons/icons/addemployee.svg</normaloff>:/icons/icons/addemployee.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Add Employee</string>
+   </property>
+  </action>
+  <action name="actionAdd_Leave">
+   <property name="icon">
+    <iconset resource="../raqeebResource.qrc">
+     <normaloff>:/icons/icons/addleave.svg</normaloff>:/icons/icons/addleave.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Add Leave</string>
+   </property>
+  </action>
+  <action name="actionAdd_bounce">
+   <property name="icon">
+    <iconset resource="../raqeebResource.qrc">
+     <normaloff>:/icons/icons/addbonus.svg</normaloff>:/icons/icons/addbonus.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Add bounce</string>
+   </property>
+  </action>
+  <action name="actionAdd_deduction">
+   <property name="icon">
+    <iconset resource="../raqeebResource.qrc">
+     <normaloff>:/icons/icons/addreduction.svg</normaloff>:/icons/icons/addreduction.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Add deduction</string>
+   </property>
+  </action>
+  <action name="actionMonth_Payroll">
+   <property name="icon">
+    <iconset resource="../raqeebResource.qrc">
+     <normaloff>:/icons/icons/monthpayrollreport.svg</normaloff>:/icons/icons/monthpayrollreport.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Month Payroll</string>
+   </property>
+  </action>
+  <action name="actionEmployee_salary">
+   <property name="icon">
+    <iconset resource="../raqeebResource.qrc">
+     <normaloff>:/icons/icons/employeereport.svg</normaloff>:/icons/icons/employeereport.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Employee salary</string>
+   </property>
+  </action>
+  <action name="actionNew_Month">
+   <property name="icon">
+    <iconset resource="../raqeebResource.qrc">
+     <normaloff>:/icons/icons/newmonth.svg</normaloff>:/icons/icons/newmonth.svg</iconset>
+   </property>
+   <property name="text">
+    <string>New Month</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="../raqeebResource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

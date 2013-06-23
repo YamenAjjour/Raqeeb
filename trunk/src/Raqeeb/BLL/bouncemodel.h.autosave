@@ -1,0 +1,32 @@
+#ifndef BOUNCEMODEL_H
+#define BOUNCEMODEL_H
+
+#include <QStandardItemModel>
+#include "../BLL/bounce.h"
+#include <QList>
+enum bounceCol {U_AMOUNT,U_ADDDATE,U_PAYDATE,U_TYPE};
+class bounceModel : public QStandardItemModel
+{
+    Q_OBJECT
+private:
+    int type ;
+    int empid ;
+    void prepareBounce(bounce * b , QList<QStandardItem*>& items);
+public:
+    explicit bounceModel(QObject *parent = 0, int type, int empid);
+    void initialize();
+    void finalize () ;
+    void setType( int type );
+    void setEmpid(int empid);
+    int geType();
+    int getEmpid();
+    bool addBounce(bounce * b);
+    bool removeBounce(bounce * b);
+    
+signals:
+    
+public slots:
+    
+};
+
+#endif // BOUNCEMODEL_H
