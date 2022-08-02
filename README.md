@@ -1,7 +1,6 @@
 
 
-hotfix Raqeebbeeb
-
+HR Program in QT & C++
 
 
 
